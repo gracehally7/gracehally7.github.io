@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    width: 50%; 
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    height: 70vh;
+    box-sizing: border-box;
+    filter: brightness(70%);
+
+}
+
+main div {
+    padding: 10px;
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main div h1 {
+    margin: 10px auto;
+}
+
+
+
+.para p {
+    
+}
+
+#sedans{
+    background-color: orangered; 
+} 
+
+h1{
+    color: rgba(255, 255, 255, 0.836);
+
+}
+
+#sedans > p{
+    color: seashell
+    
+}
+
+#suvs{
+     background-color: seagreen;
+}
+
+#suvs > p{
+    color: seashell;
+}
+
+#luxury{
+    background-color: darkolivegreen;
+       
+}
+#luxury > p{
+    color: seashell;
+}
+
+#btn1{
+    border-radius: 20px;
+   
+    background: linen;
+    position: relative;
+    color: orangered; 
+    padding: 10px;
+    
+}
+
+#btn2{
+    border-radius: 20px;
+
+    background: linen;
+    position: relative;
+    color: seagreen;
+    padding: 10px;   
+}
+#btn3{
+    border-radius: 20px;
+    background: linen;
+    position: relative;
+    color: darkolivegreen; 
+    padding:10px;
+    
+}
+
+.btn {
+    margin: 20px auto;
+}
