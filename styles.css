@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    width: 50%; 
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    height: 70vh;
+    box-sizing: border-box;
+    filter: brightness(70%);
+
+}
+
+main div {
+    padding: 10px;
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main div h1 {
+    margin: 10px auto;
+}
+
+
+
+.para p {
+    color: rgb(167, 164, 162);
+}
+
+#sedans{
+    background-color: orangered; 
+} 
+
+h1{
+    color: rgba(255, 255, 255, 0.836);
+
+}
+
+
+#suvs{
+     background-color: hsl(rgb(3, 63, 63), saturation, lightness);
+}
+
+
+#luxury{
+    background-color: darkolivegreen;
+       
+}
+.btn{
+    border-radius: 20px;
+    background: linen;
+    position: relative;
+    padding: 10px;
+    margin: 20px auto;
+
+}
+#btn1{
+    color: orangered;   
+}
+
+#btn2{
+    color: seagreen;      
+}
+#btn3{
+    color: darkolivegreen;
+}
